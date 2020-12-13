@@ -1,0 +1,11 @@
+/gatling/
+/docs/
+/target/
+/sbt-dist/
+/sbt
+/.idea/
+/LICENSE
+/scripts/
+/sbt.bat
+/NOTICE
+/test/
