@@ -2,7 +2,7 @@ package models
 
 import play.api.libs.json.{Json, OWrites, Reads}
 
-case class Provider(name: String, speciality: String, locations: List[Location], distance: Double,
+case class Provider(id:Int,name: String, speciality: String, locations: List[Location], distance: Double,
                     enrolmentInformation: String, premiumCareEvaluation: String, patientPreference: String, phone: String)
 
 
